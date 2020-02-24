@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contest results table</title>
+    <meta name="Contest result table" content="manager and teacher tool, contest with many teams" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="./js/app.js"></script>
+</head>
+
+<body>
+    <header class="data">
+        <h1>Contest results table</h1>
+        <form>
+            <div class='form-group'>
+                <label>Team A:<br><input type="text" class='form-control' id='teamA' name="name"
+                        placeholder="Enter the team name"></label>
+                <label><input type="text" class='form-control' id='pointsA' name="surname" placeholder="points"></label>
+                <label><br>Team B:<br><input type="text" class='form-control' id='teamB' name="name"
+                        placeholder="Enter the team name"></label>
+                <label><input type="text" class='form-control' id='pointsB' name="surname" placeholder="points"></label>
+                <div id="buttons">
+                    <p><button class='btn btn-submit'>Submit</button></p>
+                    <p><button id="button-delete">Delete</button></p>
+                </div>
+        </form>
+    </header>
+    <section class="container">
+        <table class="table table-bordered">
+            <tr>
+                <td>Team A</td>
+                <td>Team B</td>
+                <td>Result:</td>
+            </tr>
+        </table>
+    </section>
+</body>
+
+</html>

@@ -18,31 +18,38 @@ h1 {
 }
 
 #teamA {
-  width: 70%;
+  width: 35%;
   height: 35px;
+  text-align: center;
   background-color: rgb(252, 252, 90);
   font-size: 1.5rem;
 }
 
 #pointsA {
-  width: 20%;
+  width: 10%;
   height: 35px;
+  margin: 10px;
+  text-align: center;
   background-color: rgb(252, 252, 90);
   font-size: 1.5rem;
   color: black;
 }
 
 #teamB {
-  width: 70%;
+  width: 35%;
   height: 35px;
+  margin: 5px;
+  text-align: center;
   background-color: lightblue;
   font-size: 1.5rem;
   color: black;
 }
 
 #pointsB {
-  width: 20%;
+  width: 10%;
   height: 35px;
+  margin: 10px;
+  text-align: center;
   background-color: lightblue;
   font-size: 1.5rem;
   color: black;
